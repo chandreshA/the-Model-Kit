@@ -633,7 +633,7 @@ header{
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   gap: 34px;
-  padding: 24px;
+  padding: 48px 24px;
   align-items: center;
 }
 
