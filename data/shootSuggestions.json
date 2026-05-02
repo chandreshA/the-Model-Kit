@@ -1,0 +1,1218 @@
+{
+  "rain": [
+    {
+      "title": "Rainy editorial noir",
+      "style": "long coat, wet-look hair, leather boots",
+      "location": "covered sidewalk, parking garage, cafe window",
+      "palette": "black, charcoal, silver"
+    },
+    {
+      "title": "Umbrella campaign story",
+      "style": "tailored trench, glossy boots, clean makeup",
+      "location": "crosswalk, city corner, glass storefront",
+      "palette": "navy, cream, oxblood"
+    },
+    {
+      "title": "Wet pavement streetwear",
+      "style": "oversized hoodie, cargo pants, patent sneakers",
+      "location": "alleyway, mural wall, neon storefront",
+      "palette": "black, asphalt, electric blue"
+    },
+    {
+      "title": "Stormy luxury campaign",
+      "style": "structured coat, dark sunglasses, slick bun",
+      "location": "hotel awning, marble entrance, city steps",
+      "palette": "espresso, ivory, gold"
+    },
+    {
+      "title": "After-rain beauty portrait",
+      "style": "glossy skin, simple tank, wet waves",
+      "location": "window light, bathroom mirror, studio wall",
+      "palette": "pearl, slate, rose"
+    },
+    {
+      "title": "Cinematic trench story",
+      "style": "belted trench, pointed boots, red lip",
+      "location": "train platform, bridge walkway, old streetlamp",
+      "palette": "camel, black, burgundy"
+    },
+    {
+      "title": "Rain glass reflection",
+      "style": "black turtleneck, silver hoops, soft smoky eye",
+      "location": "car window, cafe glass, bus shelter",
+      "palette": "graphite, white, chrome"
+    },
+    {
+      "title": "Downtown monsoon mood",
+      "style": "leather jacket, wide-leg trousers, damp hair",
+      "location": "downtown street, subway stairs, brick corner",
+      "palette": "black, brick, steel"
+    },
+    {
+      "title": "Raincoat commercial",
+      "style": "bright raincoat, natural curls, clean sneakers",
+      "location": "park path, neighborhood street, school steps",
+      "palette": "yellow, denim, white"
+    },
+    {
+      "title": "Soft drizzle romance",
+      "style": "cream sweater, loose trousers, minimal makeup",
+      "location": "garden gate, quiet sidewalk, bookshop entrance",
+      "palette": "cream, moss, blush"
+    },
+    {
+      "title": "Midnight city editorial",
+      "style": "black blazer, sheer layers, polished boots",
+      "location": "wet street, taxi stand, theater sign",
+      "palette": "black, amber, wine"
+    },
+    {
+      "title": "Runway in the rain",
+      "style": "statement coat, sharp shoulders, sleek hair",
+      "location": "empty street, parking deck, concrete plaza",
+      "palette": "charcoal, ivory, red"
+    },
+    {
+      "title": "Rainy day denim",
+      "style": "denim jacket, white tee, ankle boots",
+      "location": "covered stoop, laundromat, cafe patio",
+      "palette": "denim, white, taupe"
+    },
+    {
+      "title": "Editorial umbrella silhouette",
+      "style": "long dress, black umbrella, dramatic eyeliner",
+      "location": "backlit street, archway, narrow alley",
+      "palette": "black, cream, deep green"
+    },
+    {
+      "title": "Rain-soaked athletic",
+      "style": "track jacket, fitted leggings, slick ponytail",
+      "location": "track field, gym entrance, concrete tunnel",
+      "palette": "black, cobalt, white"
+    },
+    {
+      "title": "Cafe window campaign",
+      "style": "wool coat, soft scarf, natural makeup",
+      "location": "cafe booth, rainy window, corner table",
+      "palette": "caramel, cream, cocoa"
+    },
+    {
+      "title": "Puddle reflection editorial",
+      "style": "wide-leg suit, pointed shoes, clean hair part",
+      "location": "open plaza, reflective sidewalk, office district",
+      "palette": "gray, black, muted gold"
+    },
+    {
+      "title": "Rainy rooftop drama",
+      "style": "long black coat, boots, silver jewelry",
+      "location": "rooftop, stairwell, parking structure",
+      "palette": "black, silver, storm blue"
+    },
+    {
+      "title": "Glossy beauty campaign",
+      "style": "dewy makeup, bare shoulders, wet hair texture",
+      "location": "studio backdrop, tiled wall, window light",
+      "palette": "skin tones, pearl, clear gloss"
+    },
+    {
+      "title": "Rainy market story",
+      "style": "layered jacket, crossbody bag, textured hair",
+      "location": "flower stand, street market, covered arcade",
+      "palette": "olive, cream, plum"
+    },
+    {
+      "title": "Noir beauty close-up",
+      "style": "black blouse, bold brows, dark lip",
+      "location": "dim hallway, rain-streaked glass, elevator lobby",
+      "palette": "black, mauve, gunmetal"
+    },
+    {
+      "title": "Soft storm portfolio",
+      "style": "neutral blazer, fitted tee, relaxed trousers",
+      "location": "studio window, sheltered doorway, gray wall",
+      "palette": "sand, gray, white"
+    },
+    {
+      "title": "Rainy editorial motion",
+      "style": "flowing coat, layered dress, ankle boots",
+      "location": "crosswalk, empty avenue, bridge path",
+      "palette": "black, tan, cranberry"
+    },
+    {
+      "title": "Subway rain story",
+      "style": "beanie, trench, oversized scarf",
+      "location": "subway entrance, tiled station, train platform",
+      "palette": "navy, cream, rust"
+    },
+    {
+      "title": "Rain-lit glam",
+      "style": "silk blouse, tailored pants, glossy waves",
+      "location": "hotel lobby, city sidewalk, glass doors",
+      "palette": "champagne, black, ruby"
+    }
+  ],
+  "clouds": [
+    {
+      "title": "Moody street editorial",
+      "style": "trench coat, boots, slick hair",
+      "location": "city street, concrete wall, rooftop",
+      "palette": "charcoal, beige, deep red"
+    },
+    {
+      "title": "Soft overcast beauty",
+      "style": "minimal knitwear, brushed brows, natural skin",
+      "location": "window light, stone wall, quiet street",
+      "palette": "taupe, ivory, soft gray"
+    },
+    {
+      "title": "Neutral studio portfolio",
+      "style": "black tank, tailored trousers, clean skin",
+      "location": "studio backdrop, concrete wall, loft window",
+      "palette": "black, ivory, warm gray"
+    },
+    {
+      "title": "Cloud cover commercial",
+      "style": "denim, white shirt, relaxed hair",
+      "location": "neighborhood street, cafe exterior, park bench",
+      "palette": "denim, white, sage"
+    },
+    {
+      "title": "Concrete editorial",
+      "style": "oversized blazer, sharp boots, minimal jewelry",
+      "location": "parking garage, office plaza, concrete stairs",
+      "palette": "slate, cream, black"
+    },
+    {
+      "title": "Muted runway energy",
+      "style": "longline coat, straight-leg pants, sleek bun",
+      "location": "empty hallway, industrial street, warehouse wall",
+      "palette": "gray, camel, ivory"
+    },
+    {
+      "title": "Overcast streetwear",
+      "style": "hoodie, cargo pants, layered chains",
+      "location": "basketball court, city block, underpass",
+      "palette": "black, olive, white"
+    },
+    {
+      "title": "Quiet luxury portrait",
+      "style": "cashmere sweater, simple trousers, soft glam",
+      "location": "brownstone steps, marble wall, gallery hallway",
+      "palette": "cream, stone, espresso"
+    },
+    {
+      "title": "Cloudy day movement",
+      "style": "flowing skirt, fitted top, low bun",
+      "location": "open plaza, bridge, wide sidewalk",
+      "palette": "ivory, gray, blush"
+    },
+    {
+      "title": "Editorial denim story",
+      "style": "denim-on-denim, boots, natural makeup",
+      "location": "brick wall, city stoop, rooftop edge",
+      "palette": "indigo, charcoal, white"
+    },
+    {
+      "title": "Soft shadow beauty",
+      "style": "bare shoulders, cream wrap, glossy lip",
+      "location": "window light, plain wall, studio chair",
+      "palette": "cream, rose, taupe"
+    },
+    {
+      "title": "Minimal agency digitals",
+      "style": "black jeans, fitted tank, clean hair",
+      "location": "white wall, natural window, studio corner",
+      "palette": "black, white, skin tones"
+    },
+    {
+      "title": "Gray sky editorial",
+      "style": "wool coat, leather gloves, structured bag",
+      "location": "museum steps, business district, stone arch",
+      "palette": "gray, black, oxblood"
+    },
+    {
+      "title": "Urban soft glam",
+      "style": "silk blouse, tailored denim, gold hoops",
+      "location": "cafe patio, quiet street, boutique door",
+      "palette": "cream, denim, gold"
+    },
+    {
+      "title": "Overcast fitness campaign",
+      "style": "matching athletic set, windbreaker, sneakers",
+      "location": "track, outdoor stairs, gym wall",
+      "palette": "black, white, forest"
+    },
+    {
+      "title": "Cinematic city walk",
+      "style": "long coat, turtleneck, dark trousers",
+      "location": "crosswalk, train station, side street",
+      "palette": "black, camel, smoke"
+    },
+    {
+      "title": "Soft menswear styling",
+      "style": "button-down shirt, loose tie, wide trousers",
+      "location": "office lobby, hotel hall, brick street",
+      "palette": "white, charcoal, navy"
+    },
+    {
+      "title": "Cloudy beauty campaign",
+      "style": "clean makeup, slick ponytail, simple jewelry",
+      "location": "studio chair, gray backdrop, window corner",
+      "palette": "gray, pearl, soft pink"
+    },
+    {
+      "title": "Textured knit editorial",
+      "style": "chunky knit, tailored skirt, boots",
+      "location": "stone wall, park path, quiet block",
+      "palette": "oat, charcoal, clay"
+    },
+    {
+      "title": "Street casting call",
+      "style": "black tee, jeans, boots, natural hair",
+      "location": "agency wall, sidewalk, simple studio",
+      "palette": "black, blue, white"
+    },
+    {
+      "title": "Museum steps campaign",
+      "style": "structured blazer, midi skirt, polished hair",
+      "location": "museum entrance, columns, stone stairs",
+      "palette": "ivory, black, brass"
+    },
+    {
+      "title": "Cloudy rooftop lookbook",
+      "style": "leather jacket, wide pants, silver jewelry",
+      "location": "rooftop, skyline edge, stairwell",
+      "palette": "black, slate, silver"
+    },
+    {
+      "title": "Natural light commercial",
+      "style": "soft cardigan, relaxed denim, fresh skin",
+      "location": "apartment window, kitchen corner, balcony",
+      "palette": "cream, pale blue, honey"
+    },
+    {
+      "title": "Editorial scarf story",
+      "style": "oversized scarf, long coat, soft curls",
+      "location": "windy sidewalk, park gate, corner store",
+      "palette": "camel, charcoal, rust"
+    },
+    {
+      "title": "Matte beauty portrait",
+      "style": "neutral makeup, simple top, sculpted hair",
+      "location": "gray backdrop, studio stool, blank wall",
+      "palette": "taupe, cocoa, cream"
+    }
+  ],
+  "clear": [
+    {
+      "title": "Golden hour commercial",
+      "style": "white tee, denim, glowing skin",
+      "location": "park path, cafe patio, bright sidewalk",
+      "palette": "white, denim blue, honey"
+    },
+    {
+      "title": "Clean lifestyle campaign",
+      "style": "linen shirt, relaxed trousers, natural hair",
+      "location": "sunlit street, farmers market, open plaza",
+      "palette": "cream, sage, sky blue"
+    },
+    {
+      "title": "Rooftop glow editorial",
+      "style": "slip dress, gold jewelry, bronzed makeup",
+      "location": "rooftop, skyline edge, terrace",
+      "palette": "gold, black, warm tan"
+    },
+    {
+      "title": "Bright beauty story",
+      "style": "dewy skin, slick bun, colorful lip",
+      "location": "studio window, white wall, balcony",
+      "palette": "white, coral, champagne"
+    },
+    {
+      "title": "Sunny streetwear lookbook",
+      "style": "graphic tee, cargos, clean sneakers",
+      "location": "basketball court, mural wall, city steps",
+      "palette": "white, red, denim"
+    },
+    {
+      "title": "Park day commercial",
+      "style": "cotton dress, soft curls, minimal jewelry",
+      "location": "park lawn, tree-lined path, picnic table",
+      "palette": "white, grass green, butter yellow"
+    },
+    {
+      "title": "High-sun fashion editorial",
+      "style": "sharp blazer, sunglasses, slick hair",
+      "location": "concrete plaza, museum wall, open street",
+      "palette": "black, white, chrome"
+    },
+    {
+      "title": "Fresh digitals outdoors",
+      "style": "black tank, fitted jeans, clean face",
+      "location": "plain wall, shaded sidewalk, studio exterior",
+      "palette": "black, blue, natural skin"
+    },
+    {
+      "title": "Resort-inspired city shoot",
+      "style": "linen set, sandals, soft waves",
+      "location": "hotel terrace, bright walkway, garden wall",
+      "palette": "ivory, sand, olive"
+    },
+    {
+      "title": "Sunlit denim campaign",
+      "style": "denim jacket, tank top, casual boots",
+      "location": "sidewalk, stoop, city park",
+      "palette": "denim, white, tan"
+    },
+    {
+      "title": "Warm editorial profile",
+      "style": "silk blouse, tailored pants, gold hoops",
+      "location": "sunlit hallway, window seat, gallery wall",
+      "palette": "cream, gold, cocoa"
+    },
+    {
+      "title": "Fitness in motion",
+      "style": "athletic set, windbreaker, running shoes",
+      "location": "track, stairs, waterfront path",
+      "palette": "black, white, neon green"
+    },
+    {
+      "title": "Market day model story",
+      "style": "button-down shirt, shorts, woven bag",
+      "location": "flower market, fruit stand, open street",
+      "palette": "white, citrus, green"
+    },
+    {
+      "title": "Beachless resort campaign",
+      "style": "wide-leg linen, tank, statement sunglasses",
+      "location": "pool deck, hotel steps, palm-lined sidewalk",
+      "palette": "cream, aqua, bronze"
+    },
+    {
+      "title": "Golden commercial smile",
+      "style": "simple knit, jeans, natural makeup",
+      "location": "cafe patio, park bench, bright stoop",
+      "palette": "cream, blue, honey"
+    },
+    {
+      "title": "Sun flare editorial",
+      "style": "long dress, backlit hair, minimal accessories",
+      "location": "open field, bridge, rooftop",
+      "palette": "white, gold, blush"
+    },
+    {
+      "title": "Polished city casting",
+      "style": "black blazer, slim pants, clean shoes",
+      "location": "agency entrance, street corner, office building",
+      "palette": "black, white, beige"
+    },
+    {
+      "title": "Color pop commercial",
+      "style": "bright top, denim, playful makeup",
+      "location": "painted wall, cafe exterior, city block",
+      "palette": "cobalt, white, cherry"
+    },
+    {
+      "title": "Daylight beauty close-up",
+      "style": "bare shoulders, glossy skin, soft brows",
+      "location": "window light, shaded wall, balcony door",
+      "palette": "pearl, peach, tan"
+    },
+    {
+      "title": "Sunny tailoring story",
+      "style": "cream suit, pointed shoes, sleek hair",
+      "location": "business district, gallery steps, plaza",
+      "palette": "cream, black, gold"
+    },
+    {
+      "title": "Open-air runway mood",
+      "style": "statement dress, strong walk, clean makeup",
+      "location": "wide sidewalk, terrace, empty street",
+      "palette": "red, black, stone"
+    },
+    {
+      "title": "Casual agency book",
+      "style": "white tank, jeans, simple sneakers",
+      "location": "plain wall, sunny sidewalk, studio door",
+      "palette": "white, blue, gray"
+    },
+    {
+      "title": "Bright hair campaign",
+      "style": "sleek hair, simple top, glowing highlight",
+      "location": "sunlit studio, reflective wall, window corner",
+      "palette": "bronze, cream, clear gloss"
+    },
+    {
+      "title": "Sunny editorial walk",
+      "style": "buttoned vest, trousers, dark sunglasses",
+      "location": "shopping district, crosswalk, stone street",
+      "palette": "taupe, black, ivory"
+    },
+    {
+      "title": "Warm minimal portrait",
+      "style": "tank dress, simple hoops, fresh skin",
+      "location": "cream wall, balcony, sunlit hallway",
+      "palette": "cream, caramel, soft pink"
+    }
+  ],
+  "snow": [
+    {
+      "title": "Winter luxury campaign",
+      "style": "wool coat, scarf, soft glam makeup",
+      "location": "brownstone steps, snowy park, studio backdrop",
+      "palette": "cream, gray, icy blue"
+    },
+    {
+      "title": "Snow day editorial",
+      "style": "oversized coat, leather gloves, slick bun",
+      "location": "snowy sidewalk, stone stairs, quiet street",
+      "palette": "black, ivory, silver"
+    },
+    {
+      "title": "Frosted beauty portrait",
+      "style": "soft shimmer, knit wrap, glossy lip",
+      "location": "window light, snowy window, pale backdrop",
+      "palette": "pearl, blush, ice gray"
+    },
+    {
+      "title": "Alpine streetwear",
+      "style": "puffer jacket, cargo pants, boots",
+      "location": "park path, subway entrance, snowy steps",
+      "palette": "black, white, cobalt"
+    },
+    {
+      "title": "Cozy commercial story",
+      "style": "chunky sweater, jeans, natural curls",
+      "location": "cafe window, apartment stoop, bookstore",
+      "palette": "cream, denim, cinnamon"
+    },
+    {
+      "title": "Snowfall fashion walk",
+      "style": "long coat, tall boots, dramatic scarf",
+      "location": "empty street, bridge, plaza",
+      "palette": "camel, white, charcoal"
+    },
+    {
+      "title": "Icy editorial noir",
+      "style": "black turtleneck, wool trousers, silver jewelry",
+      "location": "snowy alley, parking deck, brick wall",
+      "palette": "black, snow, steel"
+    },
+    {
+      "title": "Winter white lookbook",
+      "style": "cream coat, tonal layers, soft waves",
+      "location": "studio, snowy park, marble steps",
+      "palette": "cream, ivory, champagne"
+    },
+    {
+      "title": "Snow-glow commercial",
+      "style": "bright coat, scarf, clean makeup",
+      "location": "holiday market, park bench, city street",
+      "palette": "red, white, forest"
+    },
+    {
+      "title": "Cold weather casting",
+      "style": "black jeans, fitted sweater, ankle boots",
+      "location": "plain studio, white wall, window corner",
+      "palette": "black, white, gray"
+    },
+    {
+      "title": "Editorial fur texture",
+      "style": "faux fur coat, sleek hair, nude lip",
+      "location": "hotel lobby, snowy sidewalk, stone doorway",
+      "palette": "espresso, cream, gold"
+    },
+    {
+      "title": "Snowy athletic campaign",
+      "style": "thermal layers, puffer vest, trainers",
+      "location": "outdoor stairs, track edge, park trail",
+      "palette": "black, white, lime"
+    },
+    {
+      "title": "Quiet snow portrait",
+      "style": "knit sweater, minimal makeup, loose hair",
+      "location": "window seat, snowy street, bedroom wall",
+      "palette": "oat, gray, soft rose"
+    },
+    {
+      "title": "Frosted runway mood",
+      "style": "statement coat, sharp boots, bold eyeliner",
+      "location": "wide sidewalk, museum steps, empty plaza",
+      "palette": "white, black, crimson"
+    },
+    {
+      "title": "Snowstorm silhouette",
+      "style": "hooded coat, dark trousers, structured bag",
+      "location": "backlit street, tunnel, bridge walkway",
+      "palette": "black, fog gray, silver"
+    },
+    {
+      "title": "Cabin editorial city version",
+      "style": "plaid coat, knit scarf, leather boots",
+      "location": "brick stoop, cafe doorway, park fence",
+      "palette": "plaid red, brown, cream"
+    },
+    {
+      "title": "Ice queen beauty",
+      "style": "slick hair, pearl highlight, white top",
+      "location": "studio backdrop, frosted window, tiled wall",
+      "palette": "white, silver, pale blue"
+    },
+    {
+      "title": "Snowy denim story",
+      "style": "denim jacket under coat, boots, beanie",
+      "location": "city block, snowy bench, corner store",
+      "palette": "denim, snow, black"
+    },
+    {
+      "title": "Winter editorial steps",
+      "style": "tailored coat, gloves, strong lip",
+      "location": "library steps, courthouse, brownstone",
+      "palette": "navy, cream, burgundy"
+    },
+    {
+      "title": "Soft knit campaign",
+      "style": "matching knit set, simple rings, fresh skin",
+      "location": "studio couch, window light, warm interior",
+      "palette": "cream, tan, cocoa"
+    },
+    {
+      "title": "Snowy street commercial",
+      "style": "puffer coat, jeans, sneakers",
+      "location": "neighborhood street, park path, train stop",
+      "palette": "white, navy, red"
+    },
+    {
+      "title": "Cold glam close-up",
+      "style": "dark coat collar, glossy lip, smoky eye",
+      "location": "snowy window, hotel hallway, studio wall",
+      "palette": "black, pearl, wine"
+    },
+    {
+      "title": "Winter market editorial",
+      "style": "long scarf, wool coat, boots",
+      "location": "flower stand, outdoor market, city square",
+      "palette": "forest, cream, charcoal"
+    },
+    {
+      "title": "Snow-lit luxury walk",
+      "style": "monochrome coat, sunglasses, polished hair",
+      "location": "hotel entrance, plaza, snowy curb",
+      "palette": "ivory, black, gold"
+    },
+    {
+      "title": "Frosty portfolio refresh",
+      "style": "turtleneck, tailored pants, clean makeup",
+      "location": "studio, window corner, neutral wall",
+      "palette": "black, gray, ivory"
+    }
+  ],
+  "mist": [
+    {
+      "title": "Foggy cinematic editorial",
+      "style": "long coat, soft waves, dark boots",
+      "location": "bridge, waterfront, empty street",
+      "palette": "gray, black, pale blue"
+    },
+    {
+      "title": "Misty beauty portrait",
+      "style": "dewy skin, bare shoulders, soft brows",
+      "location": "window light, fogged glass, studio backdrop",
+      "palette": "pearl, taupe, rose"
+    },
+    {
+      "title": "Soft-focus commercial",
+      "style": "cardigan, denim, natural makeup",
+      "location": "park path, cafe window, neighborhood street",
+      "palette": "cream, sage, gray"
+    },
+    {
+      "title": "Hazy street editorial",
+      "style": "leather jacket, black jeans, silver rings",
+      "location": "underpass, alley, train station",
+      "palette": "black, smoke, chrome"
+    },
+    {
+      "title": "Morning fog fashion",
+      "style": "wool coat, tall boots, slick hair",
+      "location": "brownstone block, empty plaza, bridge",
+      "palette": "camel, gray, cream"
+    },
+    {
+      "title": "Dreamy window story",
+      "style": "silk blouse, soft curls, minimal jewelry",
+      "location": "apartment window, cafe booth, hotel room",
+      "palette": "ivory, blush, warm gray"
+    },
+    {
+      "title": "Fog-lit runway mood",
+      "style": "statement dress, strong posture, dark eye",
+      "location": "open plaza, studio haze, warehouse",
+      "palette": "black, silver, plum"
+    },
+    {
+      "title": "Misty athletic campaign",
+      "style": "windbreaker, leggings, clean sneakers",
+      "location": "track, park trail, outdoor stairs",
+      "palette": "gray, white, neon yellow"
+    },
+    {
+      "title": "Haze and tailoring",
+      "style": "oversized suit, fitted tank, slick bun",
+      "location": "office district, concrete stairs, gallery wall",
+      "palette": "charcoal, ivory, brass"
+    },
+    {
+      "title": "Soft gray agency digitals",
+      "style": "black tank, jeans, natural hair",
+      "location": "plain wall, studio, shaded sidewalk",
+      "palette": "black, white, cool gray"
+    },
+    {
+      "title": "Foggy waterfront story",
+      "style": "trench coat, scarf, ankle boots",
+      "location": "pier, river walk, bridge rail",
+      "palette": "sand, gray, navy"
+    },
+    {
+      "title": "Muted beauty campaign",
+      "style": "matte skin, soft lip, simple top",
+      "location": "gray backdrop, window corner, tiled wall",
+      "palette": "taupe, cream, mauve"
+    },
+    {
+      "title": "Misty market look",
+      "style": "layered jacket, wide trousers, natural curls",
+      "location": "flower stand, quiet street, covered arcade",
+      "palette": "olive, ivory, clay"
+    },
+    {
+      "title": "Cinema noir casting",
+      "style": "black coat, turtleneck, polished boots",
+      "location": "narrow alley, streetlamp, subway stairs",
+      "palette": "black, gray, amber"
+    },
+    {
+      "title": "Foggy editorial profile",
+      "style": "cream sweater, loose trousers, simple hoops",
+      "location": "park bench, stone wall, bridge path",
+      "palette": "cream, stone, pale blue"
+    },
+    {
+      "title": "Soft streetwear haze",
+      "style": "hoodie, cargos, beanie",
+      "location": "basketball court, underpass, city block",
+      "palette": "black, olive, fog gray"
+    },
+    {
+      "title": "Misty luxury close-up",
+      "style": "cashmere wrap, glossy lip, pearl earrings",
+      "location": "hotel window, studio chair, marble wall",
+      "palette": "cream, pearl, cocoa"
+    },
+    {
+      "title": "Hazy editorial walk",
+      "style": "long dress, boots, layered coat",
+      "location": "empty avenue, bridge, plaza",
+      "palette": "black, dove gray, red"
+    },
+    {
+      "title": "Fogged glass beauty",
+      "style": "slick hair, bare shoulders, fresh skin",
+      "location": "bathroom mirror, cafe glass, studio window",
+      "palette": "pearl, gray, skin tones"
+    },
+    {
+      "title": "Misty knit story",
+      "style": "chunky knit, midi skirt, boots",
+      "location": "park gate, quiet block, stone steps",
+      "palette": "oat, charcoal, moss"
+    },
+    {
+      "title": "Low-visibility editorial",
+      "style": "hooded coat, dark denim, combat boots",
+      "location": "parking deck, street corner, tunnel",
+      "palette": "black, smoke, rust"
+    },
+    {
+      "title": "Soft fog commercial",
+      "style": "button-down shirt, jeans, relaxed smile",
+      "location": "cafe patio, neighborhood street, park path",
+      "palette": "white, denim, sage"
+    },
+    {
+      "title": "Ethereal fashion portrait",
+      "style": "sheer layers, soft waves, delicate jewelry",
+      "location": "studio haze, window light, pale wall",
+      "palette": "ivory, silver, blush"
+    },
+    {
+      "title": "Foggy city movement",
+      "style": "flowing coat, tailored pants, boots",
+      "location": "crosswalk, bridge path, wide sidewalk",
+      "palette": "charcoal, cream, burgundy"
+    },
+    {
+      "title": "Muted model book refresh",
+      "style": "black blazer, fitted tee, clean makeup",
+      "location": "studio, gray wall, shaded exterior",
+      "palette": "black, gray, ivory"
+    }
+  ],
+  "cold": [
+    {
+      "title": "Layered winter streetwear",
+      "style": "oversized coat, knitwear, boots",
+      "location": "downtown street, subway entrance, brick wall",
+      "palette": "black, gray, camel"
+    },
+    {
+      "title": "Cold day luxury layers",
+      "style": "wool coat, turtleneck, leather gloves",
+      "location": "hotel entrance, museum steps, city sidewalk",
+      "palette": "camel, black, ivory"
+    },
+    {
+      "title": "Crisp commercial portrait",
+      "style": "puffer jacket, denim, fresh skin",
+      "location": "park path, cafe exterior, neighborhood block",
+      "palette": "navy, white, stone"
+    },
+    {
+      "title": "Cold light beauty",
+      "style": "matte makeup, sleek bun, simple sweater",
+      "location": "window light, studio wall, apartment corner",
+      "palette": "gray, cream, rose"
+    },
+    {
+      "title": "Tailored cold-weather editorial",
+      "style": "long blazer coat, trousers, pointed boots",
+      "location": "business district, plaza, gallery wall",
+      "palette": "charcoal, white, gold"
+    },
+    {
+      "title": "Knitwear lookbook",
+      "style": "chunky sweater, wide pants, ankle boots",
+      "location": "brownstone steps, studio chair, bookshop",
+      "palette": "oat, cocoa, cream"
+    },
+    {
+      "title": "Cold street casting",
+      "style": "black jeans, fitted sweater, clean boots",
+      "location": "agency wall, studio exterior, plain sidewalk",
+      "palette": "black, gray, denim"
+    },
+    {
+      "title": "Urban scarf story",
+      "style": "oversized scarf, wool coat, loose trousers",
+      "location": "train platform, park gate, street corner",
+      "palette": "rust, camel, charcoal"
+    },
+    {
+      "title": "Cold athletic campaign",
+      "style": "thermal set, running jacket, sneakers",
+      "location": "track, city stairs, waterfront path",
+      "palette": "black, white, cobalt"
+    },
+    {
+      "title": "Frosty editorial close-up",
+      "style": "high collar coat, glossy lip, strong brows",
+      "location": "studio, cold window, stone doorway",
+      "palette": "black, pearl, wine"
+    },
+    {
+      "title": "Downtown coat campaign",
+      "style": "statement coat, sunglasses, slick hair",
+      "location": "office towers, crosswalk, hotel awning",
+      "palette": "black, camel, silver"
+    },
+    {
+      "title": "Quiet winter commercial",
+      "style": "cardigan, denim, natural curls",
+      "location": "cafe booth, apartment window, bookstore",
+      "palette": "cream, denim, warm brown"
+    },
+    {
+      "title": "Cold-weather runway walk",
+      "style": "structured coat, tall boots, bold lip",
+      "location": "wide sidewalk, museum entrance, empty plaza",
+      "palette": "black, ivory, crimson"
+    },
+    {
+      "title": "Layered denim editorial",
+      "style": "denim jacket, coat, boots",
+      "location": "brick wall, city stoop, parking deck",
+      "palette": "denim, charcoal, cream"
+    },
+    {
+      "title": "Winter soft glam",
+      "style": "cream sweater, pearl earrings, soft waves",
+      "location": "window seat, studio couch, hotel room",
+      "palette": "cream, blush, champagne"
+    },
+    {
+      "title": "Cold rooftop editorial",
+      "style": "long coat, gloves, silver hoops",
+      "location": "rooftop, stairwell, skyline edge",
+      "palette": "black, gray, silver"
+    },
+    {
+      "title": "Menswear winter mood",
+      "style": "button-down, overcoat, wide trousers",
+      "location": "hotel lobby, office hallway, city street",
+      "palette": "white, charcoal, navy"
+    },
+    {
+      "title": "Warm layers commercial",
+      "style": "quilted jacket, jeans, casual boots",
+      "location": "park bench, cafe exterior, street market",
+      "palette": "olive, cream, denim"
+    },
+    {
+      "title": "Cold studio digitals",
+      "style": "black turtleneck, jeans, clean makeup",
+      "location": "studio wall, window light, simple backdrop",
+      "palette": "black, white, cool gray"
+    },
+    {
+      "title": "Editorial leather layers",
+      "style": "leather jacket, knit scarf, dark trousers",
+      "location": "underpass, alley, subway entrance",
+      "palette": "black, steel, burgundy"
+    },
+    {
+      "title": "Cold morning lifestyle",
+      "style": "sweater coat, tote bag, natural makeup",
+      "location": "coffee shop, bookstore, neighborhood street",
+      "palette": "tan, cream, sage"
+    },
+    {
+      "title": "Minimal winter book",
+      "style": "long sleeve tee, jeans, simple boots",
+      "location": "white wall, studio, shaded sidewalk",
+      "palette": "white, black, denim"
+    },
+    {
+      "title": "Cold fashion silhouette",
+      "style": "hooded coat, wide trousers, black boots",
+      "location": "bridge, tunnel, backlit street",
+      "palette": "black, fog gray, amber"
+    },
+    {
+      "title": "Polished winter editorial",
+      "style": "tailored suit, coat over shoulders, sleek hair",
+      "location": "gallery steps, hotel hall, business district",
+      "palette": "charcoal, ivory, gold"
+    },
+    {
+      "title": "Cozy agency refresh",
+      "style": "neutral knit, denim, fresh face",
+      "location": "studio window, apartment corner, cream wall",
+      "palette": "oat, denim, soft gray"
+    }
+  ],
+  "hot": [
+    {
+      "title": "Golden hour resort shoot",
+      "style": "linen set, glowing skin, minimal jewelry",
+      "location": "beach, rooftop, open field",
+      "palette": "white, gold, warm tan"
+    },
+    {
+      "title": "Summer commercial glow",
+      "style": "tank top, denim shorts, fresh makeup",
+      "location": "park path, cafe patio, bright sidewalk",
+      "palette": "white, denim, coral"
+    },
+    {
+      "title": "Heatwave beauty campaign",
+      "style": "slick bun, glossy skin, bare shoulders",
+      "location": "studio window, tiled wall, balcony",
+      "palette": "bronze, pearl, clear gloss"
+    },
+    {
+      "title": "Rooftop summer editorial",
+      "style": "slip dress, sunglasses, gold hoops",
+      "location": "rooftop, terrace, skyline edge",
+      "palette": "black, gold, terracotta"
+    },
+    {
+      "title": "Poolside fashion story",
+      "style": "linen trousers, fitted top, sandals",
+      "location": "pool deck, hotel courtyard, sunlit steps",
+      "palette": "aqua, ivory, tan"
+    },
+    {
+      "title": "Hot city streetwear",
+      "style": "cropped tee, cargos, sneakers",
+      "location": "basketball court, mural wall, street corner",
+      "palette": "white, olive, orange"
+    },
+    {
+      "title": "Sunset editorial motion",
+      "style": "flowing dress, natural waves, minimal accessories",
+      "location": "open field, bridge, waterfront",
+      "palette": "gold, blush, cream"
+    },
+    {
+      "title": "Clean heatwave digitals",
+      "style": "black tank, jeans, natural hair",
+      "location": "shaded wall, studio exterior, plain sidewalk",
+      "palette": "black, denim, skin tones"
+    },
+    {
+      "title": "Tropical city campaign",
+      "style": "printed shirt, linen pants, sandals",
+      "location": "plant shop, hotel lobby, palm-lined street",
+      "palette": "green, ivory, mango"
+    },
+    {
+      "title": "Summer athletic story",
+      "style": "sports bra, shorts, running shoes",
+      "location": "track, outdoor stairs, waterfront path",
+      "palette": "black, white, neon pink"
+    },
+    {
+      "title": "Bright market commercial",
+      "style": "cotton dress, tote bag, soft curls",
+      "location": "fruit stand, flower market, city plaza",
+      "palette": "yellow, white, green"
+    },
+    {
+      "title": "Heat shimmer editorial",
+      "style": "sheer layers, slick hair, metallic jewelry",
+      "location": "concrete plaza, rooftop, parking deck",
+      "palette": "silver, sand, black"
+    },
+    {
+      "title": "Beach-inspired beauty",
+      "style": "bronzed makeup, wet waves, simple top",
+      "location": "studio backdrop, balcony, light wall",
+      "palette": "bronze, cream, aqua"
+    },
+    {
+      "title": "Sunny tailoring story",
+      "style": "sleeveless blazer, wide trousers, sunglasses",
+      "location": "business district, gallery steps, terrace",
+      "palette": "ivory, black, gold"
+    },
+    {
+      "title": "Hot day denim campaign",
+      "style": "denim vest, loose jeans, sandals",
+      "location": "stoop, shaded sidewalk, city street",
+      "palette": "denim, white, tan"
+    },
+    {
+      "title": "Summer soft glam",
+      "style": "silk scarf top, glossy lip, gold jewelry",
+      "location": "hotel room, balcony door, cafe patio",
+      "palette": "champagne, coral, bronze"
+    },
+    {
+      "title": "Desert city editorial",
+      "style": "neutral layers, boots, dark sunglasses",
+      "location": "concrete wall, open lot, sunlit stairs",
+      "palette": "sand, black, rust"
+    },
+    {
+      "title": "Picnic commercial lifestyle",
+      "style": "cotton shirt, relaxed shorts, natural makeup",
+      "location": "park lawn, picnic table, tree shade",
+      "palette": "white, grass, strawberry"
+    },
+    {
+      "title": "Hot night campaign",
+      "style": "black dress, slick hair, statement earrings",
+      "location": "rooftop bar, city lights, hotel entrance",
+      "palette": "black, gold, ruby"
+    },
+    {
+      "title": "Editorial swim-inspired",
+      "style": "bodysuit, linen shirt, minimal sandals",
+      "location": "poolside, tiled wall, sunlit patio",
+      "palette": "white, turquoise, tan"
+    },
+    {
+      "title": "Sunlit beauty close-up",
+      "style": "glowing highlight, brushed brows, glossy lip",
+      "location": "window light, balcony, cream wall",
+      "palette": "peach, pearl, honey"
+    },
+    {
+      "title": "Heatwave street casting",
+      "style": "white tank, jeans, simple sneakers",
+      "location": "plain wall, shaded block, studio door",
+      "palette": "white, blue, gray"
+    },
+    {
+      "title": "Summer color pop",
+      "style": "bright dress, clean makeup, playful earrings",
+      "location": "painted wall, ice cream shop, city corner",
+      "palette": "cobalt, cherry, white"
+    },
+    {
+      "title": "Golden skin campaign",
+      "style": "minimal top, bronzed makeup, soft waves",
+      "location": "studio window, terrace, pale backdrop",
+      "palette": "bronze, cream, caramel"
+    },
+    {
+      "title": "Hot weather lookbook",
+      "style": "linen vest, matching trousers, sandals",
+      "location": "hotel steps, garden wall, bright sidewalk",
+      "palette": "ivory, olive, warm tan"
+    }
+  ],
+  "default": [
+    {
+      "title": "Versatile portfolio session",
+      "style": "structured blazer, clean makeup, simple accessories",
+      "location": "studio, city block, neutral wall",
+      "palette": "black, cream, muted gold"
+    },
+    {
+      "title": "Clean agency digitals",
+      "style": "black tank, fitted jeans, natural hair",
+      "location": "white wall, studio window, shaded sidewalk",
+      "palette": "black, white, denim"
+    },
+    {
+      "title": "Commercial lifestyle story",
+      "style": "button-down shirt, denim, relaxed smile",
+      "location": "cafe patio, park bench, neighborhood street",
+      "palette": "white, blue, sage"
+    },
+    {
+      "title": "Editorial tailoring test",
+      "style": "oversized blazer, trousers, pointed boots",
+      "location": "studio backdrop, gallery steps, concrete wall",
+      "palette": "charcoal, ivory, brass"
+    },
+    {
+      "title": "Minimal beauty portrait",
+      "style": "clean skin, slick bun, simple top",
+      "location": "window light, studio chair, plain wall",
+      "palette": "cream, taupe, rose"
+    },
+    {
+      "title": "Streetwear portfolio update",
+      "style": "hoodie, cargos, sneakers",
+      "location": "basketball court, mural wall, city block",
+      "palette": "black, olive, white"
+    },
+    {
+      "title": "Runway movement practice",
+      "style": "long coat, fitted base layer, boots",
+      "location": "wide sidewalk, hallway, open plaza",
+      "palette": "black, camel, gray"
+    },
+    {
+      "title": "Soft glam model book",
+      "style": "silk blouse, gold hoops, polished waves",
+      "location": "hotel room, studio window, cafe booth",
+      "palette": "champagne, cream, cocoa"
+    },
+    {
+      "title": "Natural light test shoot",
+      "style": "white tee, denim, fresh face",
+      "location": "apartment window, balcony, cream wall",
+      "palette": "white, denim, honey"
+    },
+    {
+      "title": "City model walk",
+      "style": "trench coat, trousers, sleek hair",
+      "location": "crosswalk, city street, subway entrance",
+      "palette": "tan, black, deep red"
+    },
+    {
+      "title": "Fitness portfolio story",
+      "style": "matching athletic set, windbreaker, trainers",
+      "location": "track, gym exterior, stairs",
+      "palette": "black, white, cobalt"
+    },
+    {
+      "title": "Beauty product mood",
+      "style": "glossy lip, simple jewelry, bare shoulders",
+      "location": "studio backdrop, tiled wall, window light",
+      "palette": "pearl, blush, clear gloss"
+    },
+    {
+      "title": "Quiet luxury test",
+      "style": "cashmere sweater, tailored pants, minimal jewelry",
+      "location": "gallery hallway, marble wall, hotel lobby",
+      "palette": "cream, espresso, gold"
+    },
+    {
+      "title": "Denim campaign starter",
+      "style": "denim jacket, white tank, boots",
+      "location": "brick wall, stoop, sidewalk",
+      "palette": "indigo, white, tan"
+    },
+    {
+      "title": "Editorial close-up study",
+      "style": "black turtleneck, bold brows, clean hair",
+      "location": "studio chair, gray backdrop, window corner",
+      "palette": "black, gray, skin tones"
+    },
+    {
+      "title": "Market day commercial",
+      "style": "cotton shirt, tote bag, natural curls",
+      "location": "flower market, bookstore, cafe exterior",
+      "palette": "white, green, coral"
+    },
+    {
+      "title": "Polished casting look",
+      "style": "fitted tee, straight jeans, simple boots",
+      "location": "agency entrance, white wall, studio",
+      "palette": "black, denim, white"
+    },
+    {
+      "title": "Creative portrait session",
+      "style": "statement blouse, sculpted hair, soft makeup",
+      "location": "colored wall, studio corner, gallery space",
+      "palette": "plum, cream, gold"
+    },
+    {
+      "title": "Relaxed commercial smile",
+      "style": "cardigan, jeans, natural makeup",
+      "location": "park path, cafe patio, apartment kitchen",
+      "palette": "cream, denim, sage"
+    },
+    {
+      "title": "Editorial silhouette story",
+      "style": "long dress, boots, minimal accessories",
+      "location": "backlit hallway, bridge, plain wall",
+      "palette": "black, ivory, amber"
+    },
+    {
+      "title": "Modern model comp card",
+      "style": "black blazer, white tank, sleek ponytail",
+      "location": "studio, concrete wall, office district",
+      "palette": "black, white, silver"
+    },
+    {
+      "title": "Soft romantic portfolio",
+      "style": "flowing skirt, fitted knit, loose waves",
+      "location": "garden gate, cafe corner, park bench",
+      "palette": "ivory, blush, moss"
+    },
+    {
+      "title": "Bold commercial color",
+      "style": "bright top, denim, playful accessories",
+      "location": "painted wall, shopfront, city corner",
+      "palette": "red, blue, white"
+    },
+    {
+      "title": "Studio confidence set",
+      "style": "tailored suit, clean makeup, strong posture",
+      "location": "studio backdrop, stool, white wall",
+      "palette": "black, cream, burgundy"
+    },
+    {
+      "title": "Everyday model lifestyle",
+      "style": "simple tee, loose trousers, minimal jewelry",
+      "location": "apartment, street corner, coffee shop",
+      "palette": "white, tan, soft gray"
+    }
+  ]
+}
