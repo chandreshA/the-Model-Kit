@@ -20,6 +20,11 @@ header{
     background-color: #F5F1EA;
 }
 
+.bold-font {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+}
+
 .header-dividers {
   display: flex;
   align-items: center;
@@ -586,7 +591,7 @@ header{
 }
 
 .shoot-style {
-  margin: 0 0 28px;
+  margin: 0 0 10px;
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 18px;
   color: #0f0f0f;
@@ -630,6 +635,7 @@ header{
 }
 
 .profile-preview {
+  height: 450px;
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   gap: 34px;
