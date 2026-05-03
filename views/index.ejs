@@ -3,18 +3,19 @@
 <!-- strong Hero section -->
 <section class="editorial-hero">
 
-  <div class="hero-collage" aria-hidden="true">
-    <img src="/images/model-1.jpg" alt="">
-    <img src="/images/model-2.jpg" alt="">
-    <img src="/images/model-3.jpg" alt="">
-    <img src="/images/model-4.jpg" alt="">
-    <img src="/images/model-5.jpg" alt="">
-  </div>
+  <div class="hero-collage">
+  <% heroImage.forEach(function(image) { %>
+    <img
+      src="<%= image.src.large %>"
+      alt="<%= image.alt %>"
+    >
+  <% }) %>
+</div>
 
   <div class="hero-overlay"></div>
 
   <div class="hero-content">
-    <h1 class="hero-title">The ModelKit</h1>
+    <h1 class="hero-title">ModelKit</h1>
     <p class="hero-subtitle">
       Plan shoots. Find your look. Build your modeling brand.
     </p>
@@ -41,7 +42,7 @@
       </a>
     </div>
 
-    <div class="row g-4">
+    <!-- <div class="row g-4">
       <div class="col-6 col-md-4 col-lg-2">
         <a href="/inspiration?style=editorial" class="direction-card">
           <img src="/images/editorial.jpg" alt="Editorial modeling inspiration">
@@ -85,7 +86,17 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
+  <div class="row g-4">
+  <% featuredImages.forEach(function(item) { %>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="/inspiration?style=<%= item.style %>" class="direction-card">
+        <img src="<%= item.image %>" alt="<%= item.alt %>">
+        <h3><%= item.name %></h3>
+      </a>
+    </div>
+  <% }) %>
+</div>
 </section>
 
 
