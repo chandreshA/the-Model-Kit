@@ -1,0 +1,80 @@
+<%- include('partial/header') %>
+
+<main class="inspiration-page">
+<% if (!searchQuery) { %>
+  <section class="inspiration-search-hero">
+    <p class="eyebrow">Inspiration</p>
+    <h1>What are you looking for?</h1>
+
+    <form action="/inspiration-search" method="GET" class="inspiration-search-form">
+      <input
+        type="text"
+        name="search"
+        placeholder="Try moody streetwear night"
+        required
+      >
+      <button type="submit">→</button>
+    </form>
+
+    <div class="search-suggestions">
+      <a href="/inspiration-search?search=editorial fashion model">Editorial</a>
+      <a href="/inspiration-search?search=streetwear model">Streetwear</a>
+      <a href="/inspiration-search?search=runway fashion model">Runway</a>
+      <a href="/inspiration-search?search=beauty portrait model">Beauty</a>
+      <a href="/inspiration-search?search=fitness model">Fitness</a>
+    </div>
+  </section>
+<% } else { %>
+  <section class="inspiration-results">
+    <form action="/inspiration-search" method="GET" class="top-search-bar">
+      <input
+        type="text"
+        name="search"
+        value="<%= searchQuery %>"
+      >
+      <button type="submit">→</button>
+    </form>
+
+    <p class="eyebrow">Inspiration</p>
+    <h1>“<%= searchQuery %>”</h1>
+    <p><%= photos.length %> looks found</p>
+
+    <div class="inspiration-grid">
+      <% photos.forEach(function(photo) { %>
+        <article class="inspiration-card">
+          <img src="<%= photo.src.large %>" alt="<%= photo.alt %>">
+          <div class="inspiration-card-text">
+            <h2><%= photo.alt || "Model inspiration" %></h2>
+            <p>Editorial, moodboard, portfolio</p>
+          </div>
+        </article>
+      <% }) %>
+    </div>
+  </section>
+<% } %>
+</main>
+
+<footer class="simple-footer">
+  <div class="simple-footer-inner">
+
+    <div class="simple-footer-brand">
+      <a href="/" class="footer-wordmark">The ModelKit</a>
+      <p>
+        Plan shoots. Find your look.<br>
+        Build your modeling brand.
+      </p>
+    </div>
+
+    <div class="simple-footer-right">
+      <nav class="footer-social-links" aria-label="Social links">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Pinterest">PT</a>
+        <a href="#" aria-label="TikTok">TK</a>
+      </nav>
+
+      <p class="footer-copy">© 2026 The ModelKit. All rights reserved.</p>
+    </div>
+
+  </div>
+</footer>
+

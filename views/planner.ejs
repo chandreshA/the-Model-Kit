@@ -1,0 +1,126 @@
+<%- include('partial/header') %>
+
+<main class="planner-page">
+  <% if (!plan) { %>
+    <section class="planner-search-hero">
+      <p class="eyebrow">Plan a Shoot</p>
+      <h1>Build your shoot direction.</h1>
+      <p class="planner-intro">
+        Enter your city and the style you want to shoot. The ModelKit will use weather, styling, and visual inspiration to build a plan.
+      </p>
+
+      <% if (error) { %>
+        <p class="form-error"><%= error %></p>
+      <% } %>
+
+      <form action="/planner/results" method="GET" class="planner-form">
+        <input type="text" name="city" placeholder="City, like New York" required>
+        <input type="text" name="style" placeholder="Style, like moody streetwear" required>
+        <button type="submit">Build Plan <span>→</span></button>
+      </form>
+
+      <div class="planner-suggestions">
+        <a href="/planner/results?city=New%20York&style=editorial%20streetwear">Editorial Streetwear</a>
+        <a href="/planner/results?city=Los%20Angeles&style=golden%20hour%20beauty">Golden Hour Beauty</a>
+        <a href="/planner/results?city=Paris&style=runway%20editorial">Runway Editorial</a>
+        <a href="/planner/results?city=Atlanta&style=fitness%20campaign">Fitness Campaign</a>
+      </div>
+    </section>
+  <% } %>
+
+  <% if (plan) { %>
+    <% var heroImage = photos && photos[0] && photos[0].src ? photos[0].src.landscape : '/images/planner-hero.jpg'; %>
+    <section
+      class="planner-results-hero"
+      style="background-image: linear-gradient(to right, rgba(0,0,0,0.78), rgba(0,0,0,0.18)), url('<%= heroImage %>');"
+    >
+      <div class="planner-results-content">
+        <p class="eyebrow">Plan a Shoot</p>
+        <h1><%= plan.shoot.title %></h1>
+        <p><%= plan.weather %>, <%= plan.temp %>°F in <%= plan.city %></p>
+
+        <div class="hero-actions">
+          <a href="#shoot-direction" class="planner-dark-button">View Direction <span>→</span></a>
+          <a href="/planner" class="planner-outline-button">New Plan</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="planner-results">
+      <article class="planner-card weather-card">
+        <p class="card-label">Current Weather</p>
+
+        <div class="weather-main">
+          <span class="weather-icon"><%= plan.shoot.emoji %></span>
+          <div>
+            <h2><%= plan.temp %>°F</h2>
+            <p><%= plan.weather %></p>
+          </div>
+        </div>
+
+        <div class="weather-details">
+          <p><span>Humidity</span><strong><%= plan.humidity %>%</strong></p>
+          <p><span>Wind</span><strong><%= plan.wind %> mph</strong></p>
+          <p><span>City</span><strong><%= plan.city %></strong></p>
+        </div>
+      </article>
+
+      <article class="planner-card time-card">
+        <p class="card-label">Best Shoot Time</p>
+        <h2><%= plan.shootTime.time %></h2>
+        <p><%= plan.shootTime.label %> · <%= plan.shootTime.note %></p>
+
+        <div class="time-line">
+          <span>6AM</span>
+          <span>12PM</span>
+          <span>6PM</span>
+          <span>12AM</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="shoot-direction" id="shoot-direction">
+      <div class="section-heading">
+        <h2>Your Shoot Direction</h2>
+      </div>
+
+      <div class="direction-panel-grid">
+        <article class="direction-panel">
+          <p class="card-label">Style</p>
+          <h3><%= plan.userStyle %></h3>
+          <p><%= plan.shoot.style %></p>
+        </article>
+
+        <article class="direction-panel">
+          <p class="card-label">Locations</p>
+          <h3>Suggested Settings</h3>
+          <p><%= plan.shoot.location %></p>
+        </article>
+
+        <article class="direction-panel">
+          <p class="card-label">Palette</p>
+          <h3>Color Story</h3>
+          <p><%= plan.shoot.palette %></p>
+        </article>
+
+        <article class="direction-panel">
+          <p class="card-label">Creative Mood</p>
+          <h3><%= plan.shoot.title %></h3>
+          <p>Use this direction to guide poses, outfit choices, and location scouting.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="planner-inspiration">
+      <div class="section-heading">
+        <h2>Visual Inspiration</h2>
+      </div>
+
+      <div class="planner-image-grid">
+        <% photos.forEach(function(photo) { %>
+          <img src="<%= photo.src.large %>" alt="<%= photo.alt || plan.userStyle + ' inspiration' %>">
+        <% }) %>
+      </div>
+    </section>
+  <% } %>
+</main>
