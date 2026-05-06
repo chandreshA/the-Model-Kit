@@ -1,8 +1,9 @@
 Note: the openWeather and Pexel APIs used in this project require API keys to retrive data for authentication. create free acounts for both at https://openweathermap.org/guide#openweather_api_overview, and https://www.pexels.com/api/ respectively. once you have them, replace the WEATHER_API_KEY and PEXELS_API_KEY with their respective api keys, and the website should work as expected
 
 
-
-Start project using nodemon index.js if you have nodemon. Otherwise use node index.js
+TO START PROJECT:
+1. run npm i to install node dependencies
+2. Start project using nodemon index.js if you have nodemon. Otherwise use node index.js
 
 
 
