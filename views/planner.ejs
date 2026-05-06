@@ -118,9 +118,99 @@
 
       <div class="planner-image-grid">
         <% photos.forEach(function(photo) { %>
-          <img src="<%= photo.src.large %>" alt="<%= photo.alt || plan.userStyle + ' inspiration' %>">
+          <article class="planner-image-card">
+            <img src="<%= photo.src.large %>" alt="<%= photo.alt || 'Model inspiration' %>">
+
+            <button
+              type="button"
+              class="bookmark-btn"
+              data-id="<%= photo.id %>"
+              data-src="<%= photo.src.large %>"
+              data-alt="<%= photo.alt || 'Model inspiration' %>"
+            >
+              ♡
+            </button>
+          </article>
         <% }) %>
       </div>
+
     </section>
+    <section class="planner-inspiration" id="saved-images">
+      <div class="section-heading">
+        <h2>Saved Inspiration</h2>
+      </div>
+
+      <div class="planner-image-grid" id="savedImageGrid">
+        <p class="empty-saved">No saved images yet.</p>
+      </div>
+    </section>
+
+
   <% } %>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script>
+    const bookmarkButtons = document.querySelectorAll(".bookmark-btn");
+    const savedImageGrid = document.querySelector("#savedImageGrid");
+
+    let savedImages = [];
+
+    async function loadSavedImages() {
+      const response = await axios.get("/api/saved-images");
+      savedImages = response.data;
+      updateSavedSection();
+      updateBookmarkButtons();
+    }
+
+    function updateBookmarkButtons() {
+      bookmarkButtons.forEach((button) => {
+        const isSaved = savedImages.some((image) => image.id === button.dataset.id);
+
+        button.textContent = isSaved ? "♥" : "♡";
+        button.classList.toggle("is-saved", isSaved);
+      });
+    }
+
+    function updateSavedSection() {
+      if (savedImages.length === 0) {
+        savedImageGrid.innerHTML = "<p>No saved images yet.</p>";
+        return;
+      }
+
+      savedImageGrid.innerHTML = savedImages.map((image) => {
+        return `
+          <article class="planner-image-card">
+            <img src="${image.src}" alt="${image.alt}">
+          </article>
+        `;
+      }).join("");
+
+    }
+
+    bookmarkButtons.forEach((button) => {
+      button.addEventListener("click", async () => {
+        const isSaved = savedImages.some((image) => image.id === button.dataset.id);
+
+        if (isSaved) {
+          const response = await axios.delete("/api/saved-images/" + button.dataset.id);
+          savedImages = response.data;
+        } else {
+          const response = await axios.post("/api/saved-images", {
+            id: button.dataset.id,
+            src: button.dataset.src,
+            alt: button.dataset.alt
+          });
+
+          savedImages = response.data;
+        }
+
+        updateSavedSection();
+        updateBookmarkButtons();
+      });
+    });
+
+    loadSavedImages();
+  </script>
+
 </main>

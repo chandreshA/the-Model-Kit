@@ -1,20 +1,29 @@
 import express from 'express';
 import axios from 'axios';
 import dotenv from 'dotenv';
+import path from 'path';
+import fs from 'fs/promises';
 import shootSuggestions from './data/shootSuggestions.json' with { type: 'json' };
 
 
 dotenv.config();
 
+// Initialize Express app and set up constants for API keys and URLs
 const app = express();
 const port = 3000;
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
+const PEXELS_API_KEY = process.env.PEXELS_API_KEY;
 const defaultCity = 'New York';
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 const PEXELS_API_URL = 'https://api.pexels.com/v1/search';
 
-app.use(express.static('public'));
+let savedImages = [];
 
+app.use(express.static('public'));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+// Function to determine the weather category based on description and temperature
 function getWeatherCategory(description, temp) {
     const weather = description.toLowerCase();
 
@@ -55,6 +64,7 @@ function getWeatherCategory(description, temp) {
     }
 }
 
+// function to get weather emoji based on the weather category
 function getWeatherEmoji(category) {
   switch (category) {
     case "rain":
@@ -84,12 +94,13 @@ function getWeatherEmoji(category) {
 }
 
 
-
+// function to get shoot suggestion based on the weather category, which includes a title, description, and styling tips for the photoshoot
 function getShootSuggestion(description, temp) {
   const category = getWeatherCategory(description, temp);
   const suggestions = shootSuggestions[category] || shootSuggestions.default;
   const randomIndex = Math.floor(Math.random() * suggestions.length);
 
+  // return the shoot suggestion along with the weather category and corresponding emoji to be used in the planner results page
   return {
     category: category,
     emoji: getWeatherEmoji(category),
@@ -107,6 +118,7 @@ async function getHeroImages() {
     "runway fashion model"
   ];
 
+  // make parallel API requests to Pexels for each fashion category to retrieve a random image for the hero section of the homepage
   const imageRequests = heroQueries.map((query) => {
     return axios.get(PEXELS_API_URL, {
       headers: {
@@ -128,6 +140,7 @@ async function getHeroImages() {
   });
 }
 
+// function to get featured images for different modeling categories on the homepage, with a mix of local images and Pexels API results
 async function getFeaturedImages() {
   const featuredDirections = [
     {
@@ -177,7 +190,7 @@ async function getFeaturedImages() {
 
       const response = await axios.get(PEXELS_API_URL, {
         headers: {
-          Authorization: process.env.PEXELS_API_KEY
+          Authorization: PEXELS_API_KEY
         },
         params: {
           query: direction.query,
@@ -200,6 +213,7 @@ async function getFeaturedImages() {
   return featuredImages;
 }
 
+// function to determine the best time of day for a photoshoot based on the weather category, which can be used in the planner results page to give users guidance on when to schedule their shoot for optimal lighting conditions
 function getShootTime(category) {
   switch (category) {
     case "hot":
@@ -243,6 +257,7 @@ function getShootTime(category) {
   }
 }
 
+// Route handler for the homepage, which fetches current weather data for the default city, gets hero and featured images, determines shoot suggestions based on the weather, and renders the index.ejs template with all the relevant data to display
 app.get('/', async (req, res) => {
     try {
         const response = await axios.get(WEATHER_API_URL, {
@@ -273,6 +288,7 @@ app.get('/', async (req, res) => {
     }
 });
 
+// Route handler for the inspiration search page, which allows users to search for model photos based on a query and renders the results using the inspirationSearch.ejs template, with error handling to display a user-friendly message if the API request fails or if no search query is provided
 app.get('/inspiration-search', async (req, res) => {
   const searchQuery = req.query.search;
 
@@ -310,14 +326,18 @@ app.get('/inspiration-search', async (req, res) => {
   }
 });
 
+// Route handlers for the shoot planner page, which allows users to input a city and shoot style to receive a personalized photoshoot plan based on current weather conditions, including suggested shoot types, optimal shoot times, and relevant model photos from the Pexels API, with error handling to guide users in case of missing input or API failures
 app.get("/planner", (req, res) => {
   res.render("planner.ejs", {
     plan: null,
     photos: [],
+    savedImages: savedImages,
+    currentUrl: req.originalUrl,
     error: null
   });
 });
 
+// Route handler for processing the shoot planner form submission, which validates user input, fetches current weather data for the specified city, determines shoot suggestions and optimal shoot times based on the weather, retrieves relevant model photos from the Pexels API based on the user's chosen shoot style and weather conditions
 app.get("/planner/results", async (req, res) => {
   const city = req.query.city;
   const style = req.query.style;
@@ -373,6 +393,8 @@ app.get("/planner/results", async (req, res) => {
     res.render("planner.ejs", {
       plan,
       photos: pexelsResponse.data.photos,
+      savedImages: savedImages,
+      currentUrl: req.originalUrl,
       error: null
     });
   } catch (error) {
@@ -385,6 +407,32 @@ app.get("/planner/results", async (req, res) => {
     });
   }
 });
+
+app.get("/api/saved-images", (req, res) => {
+  res.json(savedImages);
+});
+
+app.post("/api/saved-images", (req, res) => {
+  const image = {
+    id: String(req.body.id),
+    src: req.body.src,
+    alt: req.body.alt
+  };
+
+  const exists = savedImages.some((savedImage) => savedImage.id === image.id);
+
+  if (!exists) {
+    savedImages.push(image);
+  }
+
+  res.json(savedImages);
+});
+
+app.delete("/api/saved-images/:id", (req, res) => {
+  savedImages = savedImages.filter((image) => image.id !== req.params.id);
+  res.json(savedImages);
+});
+
 
 
 app.listen(port, () => {

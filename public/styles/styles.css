@@ -1548,3 +1548,40 @@ header{
     min-height: 420px;
   }
 }
+
+/* saved images section */
+.planner-image-card,
+.saved-image-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.bookmark-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 38px;
+  height: 38px;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.bookmark-btn.is-saved {
+  background: #b11226;
+}
+
+.saved-image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.saved-image-card img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
